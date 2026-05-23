@@ -19,7 +19,7 @@ static void clearInput() {
 KlinikManager::KlinikManager()
     : nextIdPasien(1), nextIdDokter(1), nextIdObat(1),
       nextIdKunjungan(1), nextIdResep(1), nextAntrean(1),
-      tanggalHariIni("2025-06-01") {
+      tanggalHariIni("2026-05-23") {
     laporan = Laporan(tanggalHariIni);
     inisialisasiDataContoh();
 }

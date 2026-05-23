@@ -142,7 +142,6 @@ int main() {
     // Set tanggal hari ini
     cout << "\nMasukkan tanggal hari ini (YYYY-MM-DD): ";
     string tgl;
-    cin.ignore();
     getline(cin, tgl);
     if (!tgl.empty()) km.setTanggalHariIni(tgl);
     cout << "Tanggal aktif: " << km.getTanggalHariIni() << endl;
