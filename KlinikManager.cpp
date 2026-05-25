@@ -38,7 +38,7 @@ string KlinikManager::getTanggalHariIni() const { return tanggalHariIni; }
 // ============================================================
 void KlinikManager::inisialisasiDataContoh() {
     // Dokter
-    daftarDokter.push_back(Dokter(nextIdDokter++, "Budi Santoso", "081234567890",
+    daftarDokter.push_back(Dokter(nextIdDokter++, "Elisius Kundre", "081234567890",
                                    "Jl. Mawar No. 1", "Umum", "SIP-001"));
     daftarDokter.push_back(Dokter(nextIdDokter++, "Sari Dewi", "081987654321",
                                    "Jl. Melati No. 5", "Anak", "SIP-002"));
